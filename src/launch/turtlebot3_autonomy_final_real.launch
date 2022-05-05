@@ -1,0 +1,19 @@
+<launch>
+
+
+  <include file="$(find darknet_ros)/launch/darknet_ros_real.launch"> </include>
+
+  <node pkg="aue_finals" type="obs_avoid_line_follow_real.py" name="obs_follower"> </node>
+
+  <node pkg="aue_finals" type="stop_sign.py" name="sign_detection"> </node>
+
+  <include file="$(find apriltag_ros)/launch/continuous_detection.launch"/>  
+
+</launch>
+
+
+<!--rosrun image_transport republish compressed in:=camera/image raw out:=camera/image/awesome-->
+
+
+
+

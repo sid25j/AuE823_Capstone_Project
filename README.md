@@ -1,5 +1,4 @@
-# AuE823_Capstone_Project
-This repository contains assets for the capstone project of the course AuE823 - Autonomy: Science and Systems
+# Autonomous Bot
 ![IMG_6640](https://user-images.githubusercontent.com/57304529/166848576-27cb1e29-65ac-468f-a5a9-19adac682aff.jpg)
 
 # Project Objectives
